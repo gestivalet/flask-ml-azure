@@ -8,7 +8,7 @@ trigger:
 
 variables:
   # Azure Resource Manager connection created during pipeline creation
-  azureServiceConnectionId: 'ec8acdcc-972e-496e-b160-b28e278e1b9e'
+  azureServiceConnectionId: 'gestivalet-Flask-ML-Deploy-ec8acdcc-972e-496e-b160-b28e278e1b9e'
   
   # Web app name
   webAppName: 'ge-flask-ml-service'
