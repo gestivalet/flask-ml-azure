@@ -26,7 +26,7 @@ def predict():
     try:
         clf = joblib.load("model_treeclf.joblib")
     except:
-        LOG.info(f"JSON payload: {json_payload}")
+        LOG.info("Model not loaded")
         return "Model not loaded"
 
     json_payload = request.json
