@@ -5,16 +5,16 @@ echo "Port: $PORT"
 
 # POST method predict
 curl -d '{  
-   "sepal_length":{  
+   "sepal length (cm)":{  
       "0":7.2
    },
-   "sepal_width":{  
+   "sepal width (cm)":{  
       "0":3.6
    },
-   "petal_length":{  
+   "petal length (cm)":{  
       "0":6.1
    },
-   "petal_width":{  
+   "petal width (cm)":{  
       "0":2.5
    }
 }'\
