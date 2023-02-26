@@ -13,7 +13,7 @@ LOG.setLevel(logging.INFO)
 @app.route("/")
 def home():
     html = (
-        "<h3>Sklearn Prediction Iris: From Azure Pipelines (Continuous Delivery)</h3>"
+        "<h3>Sklearn Prediction Iris: From Azure Pipelines (CD)</h3>"
     )
     return html.format(format)
 
