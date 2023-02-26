@@ -32,7 +32,7 @@ def predict():
     json_payload = request.json
     LOG.info("JSON payload: %s json_payload")
     inference_payload = pd.DataFrame(json_payload)
-    print(inference_payload, '\n\n\n')
+    print(inference_payload, "\n\n\n")
     LOG.info("inference payload DataFrame: %s inference_payload")
     prediction = str(list(clf.predict(inference_payload))[0])
     return jsonify({"prediction": prediction})
